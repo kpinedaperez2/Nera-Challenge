@@ -45,6 +45,7 @@ public class DefaultWithdrawImpl implements TransactionStrategy {
         aggregate.apply(event);
         eventStore.save(transactionDTO.getAccountId(), List.of(event));
         aggregate.markChangesAsCommitted();
+        log.info("Withdrawal applied to account with ID: {}", transactionDTO.getAccountId());
         return aggregate;
     }
 }

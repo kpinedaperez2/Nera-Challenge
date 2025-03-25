@@ -41,6 +41,7 @@ public class DefaultUpdateAccountImpl implements UpdateAccount {
         toAccountAggregate(aggregate, accountDTO);
         eventStore.save(aggregate.getAccountId(), aggregate.getUncommittedChanges());
         aggregate.markChangesAsCommitted();
+        log.info("Account updated");
         return aggregate;
     }
 

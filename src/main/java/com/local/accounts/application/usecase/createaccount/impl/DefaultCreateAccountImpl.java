@@ -31,6 +31,7 @@ public class DefaultCreateAccountImpl implements CreateAccount {
         AccountAggregate aggregate = toAccountAggregate(accountId, accountDTO);
         eventStore.save(String.valueOf(accountId), aggregate.getUncommittedChanges());
         aggregate.markChangesAsCommitted();
+        log.info("Account created with ID: {}", accountId);
         return accountId;
     }
 

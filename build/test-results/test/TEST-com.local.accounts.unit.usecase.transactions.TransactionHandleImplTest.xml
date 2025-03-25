@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.local.accounts.unit.usecase.transactions.TransactionHandleImplTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-03-25T04:52:23" hostname="DESKTOP-380PQM4" time="0.029">
+  <properties/>
+  <testcase name="testAccept_Deposit()" classname="com.local.accounts.unit.usecase.transactions.TransactionHandleImplTest" time="0.025"/>
+  <testcase name="testAccept_UnsupportedTransactionType()" classname="com.local.accounts.unit.usecase.transactions.TransactionHandleImplTest" time="0.001"/>
+  <testcase name="testAccept_Withdraw()" classname="com.local.accounts.unit.usecase.transactions.TransactionHandleImplTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

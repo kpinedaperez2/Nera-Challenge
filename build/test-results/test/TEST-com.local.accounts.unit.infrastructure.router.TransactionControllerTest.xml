@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.local.accounts.unit.infrastructure.router.TransactionControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-25T04:52:22" hostname="DESKTOP-380PQM4" time="0.028">
+  <properties/>
+  <testcase name="testTransaction()" classname="com.local.accounts.unit.infrastructure.router.TransactionControllerTest" time="0.028"/>
+  <system-out><![CDATA[01:52:23.019 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+01:52:23.020 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+01:52:23.020 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

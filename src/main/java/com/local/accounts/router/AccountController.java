@@ -8,11 +8,13 @@ import com.local.accounts.domain.accountevents.AccountAggregate;
 import com.local.accounts.infrastructure.config.auth.JwtUtil;
 import com.local.accounts.router.dto.AccountDTO;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping
+@Slf4j
 public class AccountController {
 
     private final CreateAccount createAccount;
@@ -36,6 +38,7 @@ public class AccountController {
      */
     @PostMapping("/accounts")
     public String createAccount(@RequestBody AccountDTO accountDTO) {
+        log.info("Creating account with name: {}", accountDTO.getAccountName());
         return createAccount.apply(accountDTO);
     }
 
@@ -47,6 +50,7 @@ public class AccountController {
      */
     @GetMapping("/accounts/{id}/balance")
     public Double getAccountBalance(@PathVariable String id) {
+        log.info("Retrieving balance for account with ID: {}", id);
         return getAccountData.apply(id);
     }
 
@@ -58,6 +62,7 @@ public class AccountController {
      */
     @GetMapping("/accounts/{id}")
     public AccountAggregate getAccount(@PathVariable String id) {
+        log.info("Retrieving account detail with ID: {}", id);
         return getAccountData.getAccount(id);
     }
 
@@ -70,6 +75,7 @@ public class AccountController {
      */
     @PutMapping("/accounts/{id}/update")
     public AccountAggregate createAccount(@PathVariable String id, @RequestBody AccountDTO accountDTO) {
+        log.info("Updating account with ID: {}", id);
         return updateAccount.apply(id, accountDTO);
     }
 
@@ -80,6 +86,7 @@ public class AccountController {
      */
     @DeleteMapping("/accounts/{id}")
     public void deleteAccount(@PathVariable String id) {
+        log.info("Deleting account with ID: {}", id);
         deleteAccount.accept(id);
     }
 }

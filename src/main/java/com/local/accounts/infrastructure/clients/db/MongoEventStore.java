@@ -2,12 +2,14 @@ package com.local.accounts.infrastructure.clients.db;
 
 import com.local.accounts.domain.accountevents.AccountEvent;
 import com.local.accounts.infrastructure.clients.db.entity.EventDocument;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
 @Repository
+@Slf4j
 public class MongoEventStore {
 
     private final EventRepository repository;
@@ -27,6 +29,7 @@ public class MongoEventStore {
                 .map(event -> new EventDocument(aggregateId, event))
                 .collect(Collectors.toList());
         repository.saveAll(documents);
+        log.info("Events saved ");
     }
 
     /**
@@ -37,6 +40,7 @@ public class MongoEventStore {
      */
     public List<AccountEvent> getEvents(String aggregateId) {
         List<EventDocument> documents = repository.findByAggregateId(aggregateId);
+        log.info("Events retrieved ");
         return documents.stream()
                 .map(EventDocument::getEvent)
                 .collect(Collectors.toList());

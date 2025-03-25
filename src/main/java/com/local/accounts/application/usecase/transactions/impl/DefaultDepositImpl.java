@@ -40,6 +40,7 @@ public class DefaultDepositImpl implements TransactionStrategy {
         aggregate.apply(event);
         eventStore.save(transactionDTO.getAccountId(), List.of(event));
         aggregate.markChangesAsCommitted();
+        log.info("Deposit applied to account with ID: {}", transactionDTO.getAccountId());
         return aggregate;
     }
 }
