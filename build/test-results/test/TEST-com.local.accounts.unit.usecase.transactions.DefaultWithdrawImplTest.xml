@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.local.accounts.unit.usecase.transactions.DefaultWithdrawImplTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-03-25T03:22:59" hostname="DESKTOP-380PQM4" time="0.005">
+  <properties/>
+  <testcase name="testApply_InsufficientFunds()" classname="com.local.accounts.unit.usecase.transactions.DefaultWithdrawImplTest" time="0.003"/>
+  <testcase name="testApply_Success()" classname="com.local.accounts.unit.usecase.transactions.DefaultWithdrawImplTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

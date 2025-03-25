@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.local.accounts.unit.infrastructure.router.LoginControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-25T03:22:59" hostname="DESKTOP-380PQM4" time="0.089">
+  <properties/>
+  <testcase name="testLogin()" classname="com.local.accounts.unit.infrastructure.router.LoginControllerTest" time="0.089"/>
+  <system-out><![CDATA[00:22:59.469 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+00:22:59.469 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+00:22:59.469 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
