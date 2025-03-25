@@ -3,13 +3,11 @@ package com.local.accounts.domain.accountevents;
 import com.local.accounts.domain.transactionevents.DepositEvent;
 import com.local.accounts.domain.transactionevents.WithdrawalEvent;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @AllArgsConstructor
-@Builder
 public class AccountAggregate {
 
     private String accountId;

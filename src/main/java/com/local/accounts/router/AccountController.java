@@ -20,41 +20,66 @@ public class AccountController {
     private final UpdateAccount updateAccount;
     private final DeleteAccount deleteAccount;
 
-    private final AuthenticationManager authenticationManager;
-    private final JwtUtil jwtUtil;
 
-    public AccountController(CreateAccount createAccount, GetAccountData getAccountData, UpdateAccount updateAccount, DeleteAccount deleteAccount,  AuthenticationManager authenticationManager, JwtUtil jwtUtil) {
+    public AccountController(CreateAccount createAccount, GetAccountData getAccountData, UpdateAccount updateAccount, DeleteAccount deleteAccount) {
         this.createAccount = createAccount;
         this.getAccountData = getAccountData;
         this.updateAccount = updateAccount;
         this.deleteAccount = deleteAccount;
-        this.authenticationManager = authenticationManager;
-        this.jwtUtil = jwtUtil;
     }
 
+    /**
+     * Creates a new account.
+     *
+     * @param accountDTO the account data transfer object
+     * @return the ID of the created account
+     */
     @PostMapping("/accounts")
     public String createAccount(@RequestBody AccountDTO accountDTO) {
         return createAccount.apply(accountDTO);
     }
 
+    /**
+     * Retrieves the balance of the account with the specified ID.
+     *
+     * @param id the ID of the account
+     * @return the balance of the account
+     */
     @GetMapping("/accounts/{id}/balance")
     public Double getAccountBalance(@PathVariable String id) {
         return getAccountData.apply(id);
     }
 
+    /**
+     * Retrieves the account details with the specified ID.
+     *
+     * @param id the ID of the account
+     * @return the account aggregate
+     */
     @GetMapping("/accounts/{id}")
     public AccountAggregate getAccount(@PathVariable String id) {
         return getAccountData.getAccount(id);
     }
 
+    /**
+     * Updates the account with the specified ID.
+     *
+     * @param id the ID of the account
+     * @param accountDTO the account data transfer object
+     * @return the updated account aggregate
+     */
     @PutMapping("/accounts/{id}/update")
     public AccountAggregate createAccount(@PathVariable String id, @RequestBody AccountDTO accountDTO) {
         return updateAccount.apply(id, accountDTO);
     }
 
+    /**
+     * Deletes the account with the specified ID.
+     *
+     * @param id the ID of the account
+     */
     @DeleteMapping("/accounts/{id}")
     public void deleteAccount(@PathVariable String id) {
         deleteAccount.accept(id);
     }
-
 }

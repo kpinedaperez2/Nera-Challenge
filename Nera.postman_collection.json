@@ -1,0 +1,321 @@
+{
+	"info": {
+		"_postman_id": "3cdcd024-df0d-4014-99e6-47366fcd956f",
+		"name": "Nera",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43391650",
+		"_collection_link": "https://kevinpineda-9356974.postman.co/workspace/Kevin-Pineda's-Workspace~d7b3ce28-66b8-431b-8e47-b502a80817d2/collection/43391650-3cdcd024-df0d-4014-99e6-47366fcd956f?action=share&source=collection_link&creator=43391650"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "JSESSIONID=FA22C5C1562217DC36046CA4B4D91642"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"user\",\r\n    \"password\": \"userpass\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"login"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'http://localhost:8080/api/login' \\\r\n--header 'Content-Type: application/json' \\\r\n--header 'Cookie: JSESSIONID=FA22C5C1562217DC36046CA4B4D91642' \\\r\n--data '{\"username\": \"user\", \"password\": \"userpass\"}'"
+			},
+			"response": []
+		},
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"accountName\": \"Kevin Pineda Perez\",\r\n  \"balance\": 1000.0,\r\n  \"accountType\": \"ahorros\",\r\n  \"currency\": \"USD\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/accounts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQyODQxMTIxLCJleHAiOjE3NDI4NzcxMjF9.BL5JY_h63bsSPDc4ERbzj65_SdUlsNGtRobl4WP-fdg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"accountId\": \"db587827-4124-4117-b53b-0de13066a345\",\r\n    \"accountName\": \"Kevin Pineda Perez\",\r\n    \"balance\": 1100.0,\r\n    \"accountType\": \"corriente\",\r\n    \"currency\": \"USD\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/accounts/:accountId/update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"accounts",
+						":accountId",
+						"update"
+					],
+					"variable": [
+						{
+							"key": "accountId",
+							"value": "db587827-4124-4117-b53b-0de13066a345"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deposit",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQyODcxMzE0LCJleHAiOjE3NDI5MDczMTR9.30Sz9ya_4ApoypNIdOYhjlbc5LUn83qwXlsIXBhlS8g",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"accountId\": \"6e47e3f0-739d-4d87-823c-c3443c87ae0e\",\r\n    \"type\": \"DEPOSIT\",\r\n    \"amount\": 11000.0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/transactions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"transactions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WithDraw",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQyODcxMzE0LCJleHAiOjE3NDI5MDczMTR9.30Sz9ya_4ApoypNIdOYhjlbc5LUn83qwXlsIXBhlS8g",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"accountId\": \"508cff6a-5a31-4393-9631-3ced1650c5be\",\r\n    \"type\": \"WITHDRAW\",\r\n    \"amount\": 11000.0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/transactions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"transactions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Account",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQyODcxMzE0LCJleHAiOjE3NDI5MDczMTR9.30Sz9ya_4ApoypNIdOYhjlbc5LUn83qwXlsIXBhlS8g",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/accounts/:accountId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"accounts",
+						":accountId"
+					],
+					"variable": [
+						{
+							"key": "accountId",
+							"value": "6e47e3f0-739d-4d87-823c-c3443c87ae0e"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQyODQxMTIxLCJleHAiOjE3NDI4NzcxMjF9.BL5JY_h63bsSPDc4ERbzj65_SdUlsNGtRobl4WP-fdg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/accounts/:accountId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"accounts",
+						":accountId"
+					],
+					"variable": [
+						{
+							"key": "accountId",
+							"value": "9bda513d-f608-494e-8508-2c28ca630a04"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Account Balance",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNzQyODcxMzE0LCJleHAiOjE3NDI5MDczMTR9.30Sz9ya_4ApoypNIdOYhjlbc5LUn83qwXlsIXBhlS8g",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/accounts/:accountId/balance",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"accounts",
+						":accountId",
+						"balance"
+					],
+					"variable": [
+						{
+							"key": "accountId",
+							"value": "6e47e3f0-739d-4d87-823c-c3443c87ae0e"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

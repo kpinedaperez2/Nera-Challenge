@@ -25,6 +25,12 @@ public class LoginController {
 
     }
 
+    /**
+     * Authenticates the user and generates a JWT token.
+     *
+     * @param loginRequest the login request containing username and password
+     * @return a response entity containing the authentication token
+     */
     @PostMapping("/login")
     public ResponseEntity<?> login(@RequestBody LoginRequest loginRequest) {
         authenticationManager.authenticate(

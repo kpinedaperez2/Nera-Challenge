@@ -16,9 +16,13 @@ public class TransactionController {
 
     }
 
+    /**
+     * Handles a transaction request.
+     *
+     * @param transactionDTO the transaction data transfer object
+     */
     @PostMapping("/transactions")
     public void transaction(@RequestBody TransactionDTO transactionDTO) {
         transactionHandle.accept(transactionDTO);
     }
-
 }
