@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.local.accounts.unit.infrastructure.MongoEventStoreTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-03-25T04:52:21" hostname="DESKTOP-380PQM4" time="0.827">
-  <properties/>
-  <testcase name="testSave_Success()" classname="com.local.accounts.unit.infrastructure.MongoEventStoreTest" time="0.818"/>
-  <testcase name="testGetEvents_Success()" classname="com.local.accounts.unit.infrastructure.MongoEventStoreTest" time="0.008"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
