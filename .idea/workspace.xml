@@ -5,69 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7253c94-5891-441c-8b6f-79e784123df3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/local/accounts/application/strategy/impl/TransactionHandleImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/local/accounts/domain/accountevents/AccountAggregate$AccountAggregateBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/local/accounts/domain/accountevents/AccountAggregate.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/local/accounts/domain/accountevents/AccountAggregate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/local/accounts/domain/transactionevents/DepositEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/local/accounts/domain/transactionevents/DepositEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/local/accounts/domain/transactionevents/WithdrawalEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/local/accounts/domain/transactionevents/WithdrawalEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/local/accounts/infrastructure/AccountEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/local/accounts/infrastructure/AccountEventHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/local/accounts/infrastructure/config/auth/JwtFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/local/accounts/infrastructure/config/auth/JwtFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/local/accounts/router/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/local/accounts/router/AccountController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/local/accounts/router/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/local/accounts/router/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/local/accounts/router/TransactionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/local/accounts/router/TransactionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.local.accounts.unit.infrastructure.MongoEventStoreTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.local.accounts.unit.infrastructure.MongoEventStoreTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.local.accounts.unit.infrastructure.router.AccountControllerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.local.accounts.unit.infrastructure.router.AccountControllerTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.local.accounts.unit.infrastructure.router.LoginControllerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.local.accounts.unit.infrastructure.router.LoginControllerTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.local.accounts.unit.infrastructure.router.TransactionControllerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.local.accounts.unit.infrastructure.router.TransactionControllerTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.local.accounts.unit.usecase.accounts.DefaultCreateAccountImplTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.local.accounts.unit.usecase.accounts.DefaultCreateAccountImplTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.local.accounts.unit.usecase.accounts.DefaultDeleteAccountImplTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.local.accounts.unit.usecase.accounts.DefaultDeleteAccountImplTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.local.accounts.unit.usecase.accounts.DefaultGetAccountDataImplTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.local.accounts.unit.usecase.accounts.DefaultGetAccountDataImplTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.local.accounts.unit.usecase.accounts.DefaultUpdateAccountImplTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.local.accounts.unit.usecase.accounts.DefaultUpdateAccountImplTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.local.accounts.unit.usecase.transactions.DefaultDepositImplTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.local.accounts.unit.usecase.transactions.DefaultDepositImplTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.local.accounts.unit.usecase.transactions.DefaultWithdrawImplTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.local.accounts.unit.usecase.transactions.DefaultWithdrawImplTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.local.accounts.unit.usecase.transactions.TransactionHandleImplTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.local.accounts.unit.usecase.transactions.TransactionHandleImplTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.local.accounts.unit.infrastructure.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.local.accounts.unit.infrastructure.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.local.accounts.unit.infrastructure.router.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.local.accounts.unit.infrastructure.router.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.local.accounts.unit.usecase.accounts.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.local.accounts.unit.usecase.accounts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.local.accounts.unit.usecase.transactions.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.local.accounts.unit.usecase.transactions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.local.accounts.unit.infrastructure.MongoEventStoreTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.local.accounts.unit.infrastructure.MongoEventStoreTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.local.accounts.unit.infrastructure.router.AccountControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.local.accounts.unit.infrastructure.router.AccountControllerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.local.accounts.unit.infrastructure.router.LoginControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.local.accounts.unit.infrastructure.router.LoginControllerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.local.accounts.unit.infrastructure.router.TransactionControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.local.accounts.unit.infrastructure.router.TransactionControllerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.local.accounts.unit.usecase.accounts.DefaultCreateAccountImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.local.accounts.unit.usecase.accounts.DefaultCreateAccountImplTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.local.accounts.unit.usecase.accounts.DefaultDeleteAccountImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.local.accounts.unit.usecase.accounts.DefaultDeleteAccountImplTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.local.accounts.unit.usecase.accounts.DefaultGetAccountDataImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.local.accounts.unit.usecase.accounts.DefaultGetAccountDataImplTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.local.accounts.unit.usecase.accounts.DefaultUpdateAccountImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.local.accounts.unit.usecase.accounts.DefaultUpdateAccountImplTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.local.accounts.unit.usecase.transactions.DefaultDepositImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.local.accounts.unit.usecase.transactions.DefaultDepositImplTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.local.accounts.unit.usecase.transactions.DefaultWithdrawImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.local.accounts.unit.usecase.transactions.DefaultWithdrawImplTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.local.accounts.unit.usecase.transactions.TransactionHandleImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.local.accounts.unit.usecase.transactions.TransactionHandleImplTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/local/accounts/domain/accountevents/AccountAggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/local/accounts/domain/accountevents/AccountAggregate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/local/accounts/domain/transactionevents/DepositEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/local/accounts/domain/transactionevents/DepositEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/local/accounts/domain/transactionevents/WithdrawalEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/local/accounts/domain/transactionevents/WithdrawalEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/local/accounts/infrastructure/AccountEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/local/accounts/infrastructure/AccountEventHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/local/accounts/infrastructure/config/auth/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/local/accounts/infrastructure/config/auth/JwtFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/local/accounts/router/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/local/accounts/router/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/local/accounts/router/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/local/accounts/router/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/local/accounts/router/TransactionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/local/accounts/router/TransactionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/local/accounts/unit/usecase/accounts/DefaultUpdateAccountImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/local/accounts/unit/usecase/accounts/DefaultUpdateAccountImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,16 +57,16 @@
     &quot;assignee&quot;: &quot;kpinedaperez2&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/kpinedaperez2/Nera-Challenge.git",
-    "accountId": "0e0fc4c7-7e2e-4eb1-bf45-6ea30ac81c2a"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kpinedaperez2/Nera-Challenge.git&quot;,
+    &quot;accountId&quot;: &quot;0e0fc4c7-7e2e-4eb1-bf45-6ea30ac81c2a&quot;
   }
-}]]></component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -140,49 +78,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.AccountControllerTest.executor": "Coverage",
-    "Gradle.AccountControllerTest.testCreateAccount.executor": "Coverage",
-    "Gradle.Build Nera Challenge.executor": "Run",
-    "Gradle.DefaultCreateAccountImplTest.testApply.executor": "Coverage",
-    "Gradle.DefaultDepositImplTest.testApply.executor": "Coverage",
-    "Gradle.DefaultGetAccountDataImplTest.executor": "Coverage",
-    "Gradle.DefaultGetAccountDataImplTest.testApply_Success.executor": "Run",
-    "Gradle.DefaultGetAccountDataImplTest.testGetAccount_Success.executor": "Coverage",
-    "Gradle.DefaultGetAccountDataImplTest.testGetAccount_Success2.executor": "Run",
-    "Gradle.DefaultUpdateAccountImplTest.testApply_Success.executor": "Coverage",
-    "Gradle.DefaultWithdrawImplTest.testApply_InsufficientFunds.executor": "Coverage",
-    "Gradle.DefaultWithdrawImplTest.testApply_Success.executor": "Coverage",
-    "Gradle.LoginControllerTest.testLogin.executor": "Run",
-    "Gradle.MongoEventStoreTest.testGetEvents_Success.executor": "Coverage",
-    "Gradle.MongoEventStoreTest.testSave_Success.executor": "Coverage",
-    "Gradle.Tests in 'Clientes.test'.executor": "Run",
-    "Gradle.TransactionHandleImplTest.executor": "Coverage",
-    "Gradle.com.local.accounts.unit.accounts.DefaultCreateAccountImplTest and 3 more.executor": "Run",
-    "JUnit.All in Clientes.test.executor": "Coverage",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.AccountsApplication.executor": "Run",
-    "Spring Boot.ClientesApplication.executor": "Debug",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Kevin/Proyectos/Nera Challenge/src/main/java/com/local/clientes/application/usecase/deleteaccount",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.AccountControllerTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.AccountControllerTest.testCreateAccount.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.Build Nera Challenge.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DefaultCreateAccountImplTest.testApply.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.DefaultDepositImplTest.testApply.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.DefaultGetAccountDataImplTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.DefaultGetAccountDataImplTest.testApply_Success.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DefaultGetAccountDataImplTest.testGetAccount_Success.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.DefaultGetAccountDataImplTest.testGetAccount_Success2.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DefaultUpdateAccountImplTest.testApply_Success.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.DefaultWithdrawImplTest.testApply_InsufficientFunds.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.DefaultWithdrawImplTest.testApply_Success.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.LoginControllerTest.testLogin.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MongoEventStoreTest.testGetEvents_Success.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.MongoEventStoreTest.testSave_Success.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.Tests in 'Clientes.test'.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TransactionHandleImplTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.com.local.accounts.unit.accounts.DefaultCreateAccountImplTest and 3 more.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in Clientes.test.executor&quot;: &quot;Coverage&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AccountsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ClientesApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kevin/Proyectos/Nera Challenge/src/main/java/com/local/clientes/application/usecase/deleteaccount&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.General&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -348,6 +286,7 @@
       <workItem from="1740773410222" duration="4217000" />
       <workItem from="1742612924633" duration="58209000" />
       <workItem from="1742868913451" duration="7544000" />
+      <workItem from="1742877995123" duration="10000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,12 @@
+/logs
+/.gradle
+/.idea
+/.build
+/target
+*.class
+*.log
+*.jar
+*.war
+*.iml
+*.swp
+*.DS_Store
