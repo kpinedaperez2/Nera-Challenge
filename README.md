@@ -65,10 +65,18 @@ Por otro lado, el desarrollo se implemento en una arquitectura limpia, respetand
 Descargar el repo
 ```bash
 git clone https://github.com/kpinedaperez2/Nera-Challenge.git
- ```
+```
+
+#### 1.1 En la raiz donde se clono el repo: 
+
+Construir la imagen docker
+```bash
+docker-compose build
+```
+
 Levantar la imagen docker para inicializar el .jar y la base mongo
 ```bash
-docker-compose up -d
+docker-compose up 
 ```
 
 ### 2. Ejecutar Tests
